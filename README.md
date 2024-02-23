@@ -1,3 +1,10 @@
+
+![Tests](https://github.com/BennyKrup/HW6-HMM/actions/workflows/test.yml/badge.svg)
+
+Hidden Markov Models (HMMs) are a statistical framework for modeling systems by using unobserved states and observable events by utilizing transition, emission, and initial state probabilities. In this package two algorithms are implemented: 
+1. Forward algorithm: calculating the likelihood of an observed sequence by summing over hidden state paths
+2. Viterbi algorithm: determining the most probable sequence of hidden states behind observations from all possible hidden state sequences
+
 # HW6-HMM
 
 In this assignment, you'll implement the Forward and Viterbi Algorithms (dynamic programming). 
@@ -49,17 +56,17 @@ Finally, please update your README with a brief description of your methods.
 ## Task List
 
 [TODO] Complete the HiddenMarkovModel Class methods  <br>
-  [ ] complete the `forward` function in the HiddenMarkovModelClass <br>
-  [ ] complete the `viterbi` function in the HiddenMarkovModelClass <br>
+  [X] complete the `forward` function in the HiddenMarkovModelClass <br>
+  [X] complete the `viterbi` function in the HiddenMarkovModelClass <br>
 
 [TODO] Unit Testing  <br>
-  [ ] Ensure functionality on mini and full weather dataset <br>
-  [ ] Account for edge cases 
+  [X] Ensure functionality on mini and full weather dataset <br>
+  [X] Account for edge cases 
 
 [TODO] Packaging <br>
-  [ ] Update README with description of your methods <br>
-  [ ] pip installable module (optional)<br>
-  [ ] github actions (install + pytest) (optional)
+  [X] Update README with description of your methods <br>
+  [X] pip installable module (optional)<br>
+  [X] github actions (install + pytest) (optional)
 
 
 ## Completing the Assignment 
